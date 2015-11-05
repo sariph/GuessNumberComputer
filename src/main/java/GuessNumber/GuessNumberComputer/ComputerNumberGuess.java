@@ -12,6 +12,7 @@ public class ComputerNumberGuess {
 	public static final String HIGHER="higher";
 	public static final String LOWER="lower";
 	public static final String END="end";
+	public static final String YES="yes";
 	public static final String QUESTION="Is the Number ";
 	public static final String QUESTION_MARK="?";
 	
@@ -54,7 +55,7 @@ public class ComputerNumberGuess {
 			
 			//The game begins
 			if(userInput.equalsIgnoreCase(READY)){
-				while(!userInput.equalsIgnoreCase(END)){
+				while(!userInput.equalsIgnoreCase(END) && !userInput.equalsIgnoreCase(YES)){
 					int currentGuess=(lowerBound + upperBound)/2;
 					System.out.println(QUESTION+currentGuess+QUESTION_MARK);
 					
