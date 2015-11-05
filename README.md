@@ -1,5 +1,5 @@
 # GuessNumberComputer
-Computer Number Guess Game
+The computer guesses the number that is in your mind. The basic algorithm being used is Binary Search for narrowing down the upper bound and lower bounds. 
 
 <h3>Prerequisite To Run the Program:</h3>
 Java 1.7 or higher, Maven, Junit 4
@@ -35,7 +35,7 @@ and can be easily tested using Mock Objects.
 <h3>Premise:</h3>
 The objective of the program was fulfilled with the most optimized algorithm.
 
-<h3> Initial Objective of the Program:</h3>
+<h3>Initial Objective of the Program:</h3>
 
 Write a program in Java to play a number-guessing game. The game works as follows:
 The user chooses a number in his mind and types “ready” to indicate to the computer that he is ready to begin playing.
