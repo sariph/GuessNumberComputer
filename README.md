@@ -44,7 +44,9 @@ The game ends when the user responds with “yes” or “end”.
 
 <b>Example:</b>
 
-User chooses number 40 in his mind. Computer: Is the number 30?
+User chooses number 40 in his mind. 
+
+Computer: Is the number 30?
 
 User: higher
 
@@ -52,6 +54,10 @@ Computer: Is the number 50?
 
 User: lower
 
-Computer: Is the number 35? User: higher
+Computer: Is the number 35? 
 
-Computer: Is the number 40? User: yes
+User: higher
+
+Computer: Is the number 40? 
+
+User: yes
